@@ -9,7 +9,6 @@
 
   <title>Android 绿色应用公约</title>
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500">
   <link href="assets/stylesheets/application.css" rel="stylesheet" type="text/css" />
   <script>
   function loadClicks(isClicked) {
@@ -37,7 +36,6 @@
     <nav class="site-header-nav">
       <a class="site-header-nav-item" href="https://zhuanlan.zhihu.com/naked-android" target="_blank">知乎专栏</a>
       <a class="site-header-nav-item" href="https://weibo.com/oasisfeng" target="_blank">新浪微博</a>
-      <a class="site-header-nav-item" href="http://www.coolapk.com/apk/com.oasisfeng.greenify" target="_blank">绿色守护</a>
       <a class="site-header-nav-item" href="mailto:green-android@public.oasisfeng.com" target="_blank">取得联系</a>
     </nav>
   </div>
@@ -57,7 +55,7 @@
   <div class="container text-center">
     <h1 class="text-beta">Android 绿色应用公约</h1>
     <p class="text-gray-light text-center mb-3 text-gamma">由 <a href="http://www.coolapk.com/apk/com.oasisfeng.greenify" target="_blank">绿色守护</a> 与 <a href="https://www.ifanr.com/app" target="_blank">AppSo</a> 联合发起</p>
-    <button type="button" class="btn btn-blue mt-3 mb-4" onClick="loadClicks(true)">支持公约<span id="clicks"></span></button>&nbsp;
+    <button type="button" class="btn btn-blue mt-3 mb-4" onClick="loadClicks(true); $(this).addClass('disabled'); this.disabled=true;">支持公约<span id="clicks"></span></button>&nbsp;
     <a class="btn btn-blue mt-3 mb-4" href="app-convention">阅读公约（开发者）</a>
     <p class="lead text-center mb-1">维护并促进健康的 Android 生态，需要我们每一个人发出的声音！</p>
   </div>
